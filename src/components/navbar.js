@@ -17,11 +17,13 @@ function NavBar() {
           >
           </img>
           </Navbar.Brand>
-        <Navbar.Brand href="/">CamusApp</Navbar.Brand>
+          <div style={{display: "flex",justifyContent:"center",alignItems: "center"}}>
+        <Navbar.Brand href="/">Fitness Friends</Navbar.Brand>
+        </div>
         <Nav >
-          <Nav.Link href="#home">Communities</Nav.Link>
-          <Nav.Link href="#features">My Profile</Nav.Link>
-          <Nav.Link href="#pricing">Settings</Nav.Link>
+          <Nav.Link href="/dispForm">Home</Nav.Link>
+          <Nav.Link href="/dispProfile">My Profile</Nav.Link>
+          <Nav.Link href="/Settings">Settings</Nav.Link>
         </Nav>
     </Container>
   </Navbar>

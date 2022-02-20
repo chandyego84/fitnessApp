@@ -4,6 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Router from './Router';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import StickyBox from "react-sticky-box/dist/esnext";
 
 ReactDOM.render(
   <React.StrictMode>

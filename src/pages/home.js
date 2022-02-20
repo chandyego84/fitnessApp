@@ -18,7 +18,6 @@ function Home() {
             target="_blank"
             rel="noopener noreferrer"
             >
-                Chandler fucking hates web development
             </a>
         </header>
         </div>
